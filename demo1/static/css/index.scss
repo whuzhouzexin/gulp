@@ -1,0 +1,8 @@
+$color: #333,#999;
+$fontSize: 14px, 16px, 18px, 20px, 22px, 24px;
+@mixin bg ($url){
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url($url);
+}
+
